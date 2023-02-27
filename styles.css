@@ -1,0 +1,80 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400vw;
+  height: 100vh;
+}
+
+.btn{
+  height: 75px;
+  width: 75px;
+  font-size: 40px;
+  margin: 15px;
+}
+
+.number{
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+}
+.number:hover{
+  background-color: greenyellow
+}
+
+.operator{
+  border: 1px solid steelblue;
+  border-radius: 10px;
+}
+
+.operator:hover{
+  background-color: steelblue;
+}
+
+.decimal{
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+}
+.decimal:hover{
+  background-color: goldenrod;
+}
+
+.equal{
+  border: 1px solid lightsalmon;
+  border-radius: 10px;
+}
+.equal:hover{
+  background-color: lightsalmon;
+}
+
+.clear{
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+.clear:hover{
+  background-color: purple;
+}
+
+.first-Row{
+  display: flex;
+  justify-content: center;
+  align-items: row;
+}
+
+.screen{
+  width: 300px;
+  border: 1px solid salmon;
+  height: 75px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.previous{
+  font-size: 20px;
+}
+
+.current{
+  font-size: 30px;
+}
